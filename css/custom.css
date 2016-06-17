@@ -1,0 +1,1097 @@
+/**Navigation**/
+::selection {
+  background: #AABC56;
+  color: white; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #AABC56;
+  color: white; /* Gecko Browsers */
+}
+
+body {
+    font-family: 'Montserrat', serif;
+}
+
+
+#navImg {
+    height: 47.5px;
+    margin-top: 10px;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+
+
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover  {
+    background-color: #AABC56;
+    color: #fff;
+}
+
+.glyNav {
+    margin-top: 2px;
+    color: #ccc;
+    transition: .25s;
+    font-size: 1.2em;
+}
+
+.glyNav:hover {
+    color: #AABC56;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
+    color: #ccc;
+    transition: .25s;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #AABC56;
+}
+
+/** Hero Video  **/
+
+video {
+    /**border: 4px solid #fff;**/
+    border-radius: 5px;
+    padding-left:-5px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.75);
+}
+
+/** search **/
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+/* about */
+
+#about {
+    background-color: #fff;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.secHead {
+    color: #AABC56;
+    margin-top: 5vh;
+}
+
+.secInfo {
+    color: #333;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: none;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: white;
+    color: #AABC56;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    color: #AABC56;
+    background-color: #AABC56;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
+    background-color: #f8f8f8;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: rgba(0,0,0,0);
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: #f8f8f8;
+}
+
+.lmLink {
+    color: #AABC56;
+    transition: .25s;
+    border: 2px solid #AABC56;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-top:60px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.lmLink:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #AABC56;
+}
+
+.abtHead {
+    color: #AABC56;
+    
+}
+
+.contactHead {
+    color: #AABC56;
+    
+}
+
+/*.abtInfo {
+    margin-bottom: 40px;
+}*/
+
+hr {
+    border-top: 2px solid #eee;
+}
+
+
+#testimonials {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 20px;
+    font-size: 1.2em;
+    padding-bottom: 42.5px ;
+    height: 400px;
+}
+
+.quote {
+    font-size: 1.6em;
+    color: #AABC56;
+}
+
+.testPhoto {
+    margin: auto;
+    height: 125px;
+    width: 125px;
+    border-radius: 100px;
+}
+
+.testName {
+    font-size: 1.6em;
+    margin-top: 15px;
+    color: #AABC56;
+
+}
+
+
+.testMargin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.stars {
+    color: #AABC56;
+    margin-top:20px;
+}
+
+.aboutMar {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.aboutInfoMar {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Montserrat', serif;
+}
+
+.btn {
+    font-family: 'Montserrat', serif;
+}
+
+#gmap {
+  position:absolute;top:0;left:0;z-index:1;
+}
+.overlap{
+  position: relative;
+  z-index:2;
+  background: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:active {
+    background-color: #AABC56;
+    color: #fff;
+}
+
+.imgFix {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+
+
+
+
+[class*=' imghvr-'] figcaption, [class^=imghvr-] figcaption {
+    background-color: #AABC56;
+}
+
+.imgContent {
+    font-size: .9em;
+}
+
+.hrTest {
+   margin-bottom: 10px; 
+   margin-top: 5px;
+}
+
+.prodMar {
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+
+.grey {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.adress {
+    color: #AABC56;
+    font-weight: 500px;
+    font-size: 1.1em;
+    margin-top: -10px;
+}
+
+
+
+.contactSec {
+    max-height: 310px;
+    min-height: 310px;
+    margin-bottom: 260px;
+    transition: .25s;
+    border-radius: 2px;
+    padding-bottom: 10px;
+}
+
+/*.contactSec:hover {
+    min-height: 350px;
+    margin-bottom: 100px;
+    background-color: #fff;
+}*/
+
+.aboutBtn {
+    color: #AABC56;
+    transition: .25s;
+    border: 2px solid #AABC56;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-top:10px;
+    margin-bottom: 25px;
+}
+
+.aboutBtn:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #AABC56;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.yes {
+    background-color: #f0f0f0;
+    height: 105px;
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.adressMar {
+    margin-bottom: 65px;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.abtInfo {
+    margin-bottom: 20px;
+}
+
+.white {
+    background-color: #f8f8f8 ;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.cntctBg {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #f8f8f8;
+    border-radius: 10px;
+}
+
+
+
+.btnCntct {
+    color: #fff;
+    background-color: #AABC56;
+    outline: none;
+    margin: 20px auto;
+    border: 2px solid #fff;
+    transition: .3s;
+    border-radius: 50px;
+    padding: 12px;
+    width: 200px;
+    margin-bottom: 90px;
+    margin-top: 60px;
+}
+
+.btnCntct:hover {
+    color: #fff;
+    background-color: #AABC56;
+    outline: none;
+    border: 2px solid #fff;
+    transition: .3s;
+    border-radius: 50px;
+    margin-top: 55px;
+    margin-bottom: 95px;
+}
+
+.footMar {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.closeX {
+    color: #AABC56;
+
+}
+.modal-footer {
+    border: 2px solid rgba(0,0,0,0);
+}
+
+.modal-header {
+    border: 2px solid rgba(0,0,0,0);
+}
+
+.green {
+    color: #AABC56;
+}
+
+.close {
+    opacity: 1;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.modal-content{
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+    border: none;
+}
+
+.btnModal {
+    color: #fff;
+    background-color: #AABC56;
+    outline: none;
+    border: 2px solid #fff;
+    transition: .3s;
+    border-radius: 50px;
+    padding: 5px;
+    width: 100px;
+}
+
+.btnModal:hover {
+    color: #fff;
+    background-color: #AABC56;
+    outline: none;
+    border: 2px solid #fff;
+    transition: .3s;
+    border-radius: 50px;
+}
+
+.modal-open .navbar-fixed-top,
+.modal-open .navbar-fixed-bottom {
+padding-right: 17px;
+}
+
+ul,li { list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0; }
+
+
+li {
+    color: #AABC56;
+    text-decoration: none;
+}
+ 
+.footerSub{
+    color: #ccc;
+    text-decoration: none !important;
+}
+
+.footerSub:hover {
+    color: #AABC56;
+}
+
+
+.footerSubHead {
+    color: #AABC56;
+}
+
+.footerCr {
+    margin-bottom: 30px;
+}
+
+body, .smooth-container { scroll-behavior: smooth }
+
+.footBrdr {
+    border-top: 1px solid #e7e7e7;
+}
+ .imgFill {
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+ }
+
+.imgOvrflw {
+    overflow: hidden;
+    height: 200px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.imgOvrflw img {
+    overflow: hidden;
+    width: 500px;
+}
+
+.productsMar {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.productsRowMar {
+    margin-top: 30px;
+}
+
+.productsInfo {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.productsColor {
+    background-color: #f8f8f8;
+    padding-bottom: 1px;
+}
+
+.productsName {
+    color: #AABC56;
+}
+
+.productDrpshdw {
+    box-shadow: 0px 0px 10px #e7e7e7;
+    border-radius: 5px 5px 5px 5px;
+    transition: .25s;
+}
+
+.productDrpshdw:hover {
+    box-shadow: 0px 0px 10px #cacaca;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: #fff;
+}
+
+.productSearch {
+    font-size: 1.5em;
+    color: #AABC56;
+    margin-left:45%;
+}
+
+a p {
+    color: #333;
+}
+
+ .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #fff;
+    color: #AABC56;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:active {
+    color: #AABC56;
+}
+
+.imgItem {
+    height: 350px;
+    overflow: hidden;
+}
+
+.imgItem img{
+        margin-top: -25%;
+}
+
+.itemMar {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.itemBottMar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imgHeight {
+    height: 80px;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.itemImgMar {
+    margin-top: 30px;
+
+}
+
+.itemImgText {
+    top: 0px;
+    background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.itemImgText p {
+    padding: 10px;
+}
+
+.pMar {
+    margin-bottom: -10px;
+    margin-top:0px;
+    color: #AABC56;
+}
+
+/*.itemDrpshdw {
+    box-shadow: 0px 0px 10px #e7e7e7;
+}
+
+.itemDrpshdw:hov {
+    box-shadow: 0px 0px 10px #cacaca;
+
+}*/
+
+.itemInfo {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 455px;
+    margin-bottom: 30px;
+}
+
+.ulCircle li {
+    list-style-type: disc;
+    padding: 5px;
+}
+
+tr {
+    color: #AABC56;
+}
+
+td {
+    color: #AABC56;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+th {
+    padding-right: 42px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #AABC56;
+}
+
+
+/*#item {
+    background-image: url('http://i.imgur.com/H9oBZnA.png');
+    height: 153px;
+    width: 360px;
+    background-size: 100%;
+    transition: .25s;
+}
+
+#swatch1 {
+    background-image: url('http://s3.amazonaws.com/jfimarketing/fabric_274721.jpg');
+    height: 75px;
+    width: 80px;
+    background-size: 100% 150%;
+    transition: .25s;
+}
+
+#swatch2 {
+    background-image: url('http://s3.amazonaws.com/jfimarketing/fabric_277210.jpg');
+    height: 75px;
+    width: 80px;
+    background-size: 100% 150%;
+    transition: .25s;
+}
+
+#swatch3 {
+    background-image: url('http://s3.amazonaws.com/jfimarketing/fabric_277218.jpg');
+    height: 75px;
+    width: 80px;
+    background-size: 100% 150%;
+    transition: .25s;
+}
+
+#swatch4 {
+    background-image: url('http://s3.amazonaws.com/jfimarketing/fabric_277269.jpg');
+    height: 75px;
+    width: 80px;
+    background-size: 100% 150%;
+    transition: .25s;
+}
+
+#swatch1:hover ~ #item {
+    background-repeat: no-repeat;
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/3276_serena_oyster_ju1523.jpg');
+    background-size: 100% 105%;
+    transition: .25s;
+
+}
+
+#swatch2:hover ~ #item {
+    background-repeat: no-repeat;
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/3276_serena_plum_ju1222.jpg');
+    background-size: 100% 105%;
+    transition: .25s;
+}
+
+#swatch3:hover ~ #item {
+    background-repeat: no-repeat;
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/3276_serena_otter_ju1222.jpg');
+    background-size: 100% 105%;
+    transition: .25s;
+}
+
+#swatch4:hover ~ #item {
+    background-repeat: no-repeat;
+    background-image: url('http://i.imgur.com/smpPtih.png');
+    background-size: 100% 100%;
+    transition: .25s;
+}*/
+
+.itemFloat {
+    float: left;
+    margin-top:170px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.itemCard {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.heroText {
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(255,255,255,.8);
+    color: #AABC56;
+    bottom: 10px;
+    padding: 20px;
+    font-size: 2.5em;
+    width: 75%;
+    border-radius: 0px 75px 75px 0px;
+}
+
+.heroText2 {
+    position: absolute;
+    z-index: 2;
+    color: #AABC56;
+    bottom: 22.5px;
+    padding: 20px;
+    font-size: 1.2em;
+    padding-left: 63%;
+
+}
+
+.faqContainer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.faqTitle {
+    color: #AABC56;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.faqSub {
+    color: #ccc;
+    font-size: 1.2em;
+}
+
+.faqInfo {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    transition: .25s;
+    border: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.itemHead {
+    margin-top: 0px;
+}
+
+.faqHead {
+    color: #AABC56;
+    margin-bottom:50px;
+}
+
+.itemDisplay {
+    height: 400px;
+    width: 520px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('https://jfihires.s3.amazonaws.com/3280_brighton_foam_ju1236a.jpg');
+    overflow: hidden;
+    border: 2px solid #AABC56;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+.itemDisplayPage {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.swatch1 {
+    background-image: url('http://s3.amazonaws.com/jfimarketing/fabric_199736.jpg');
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+}
+
+.swatch2 {
+    background-image: url('http://s3.amazonaws.com/jfimarketing/fabric_199778.jpg');
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+}
+
+.swatch3 {
+    background-image: url('http://s3.amazonaws.com/jfimarketing/fabric_199758.jpg');
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+}
+
+.swatch4 {
+    background-image: url('http://s3.amazonaws.com/jfimarketing/fabric_199736.jpg');
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+}
+
+.swatchLeft {
+    margin-left: -15px !important;
+    margin-top: 20px;
+}
+
+.swatch {
+    margin-top: 20px;
+    border: 2px solid #AABC56;
+    transition: .25s;
+    background-size: 100%;
+}
+
+.swatch:hover {
+    border: 4px solid #AABC56;
+}
+
+.galleryImg1 {
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/featherblend_catalog77.jpg');
+    height: 100px;
+    width: 100px;
+    background-size: 115%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    border:2px solid #AABC56;
+    transition: .25s;
+    border-radius: 2px;
+}
+
+.galleryImg2 {
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/3280_brighton_folio.jpg');
+    height: 100px;
+    width: 100px;
+    background-size: 115%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    border:2px solid #AABC56;
+    transition: .25s;
+    border-radius: 2px;
+}
+
+.galleryImg3 {
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/3280_brighton_foam_ju1186a.jpg');
+    height: 100px;
+    width: 100px;
+    background-size: 115%;
+    overflow: hidden;
+    background-repeat: no-repeat;  
+    background-position: center center;
+    background-color: #fff;
+    border:2px solid #AABC56;
+    transition: .25s;
+    border-radius: 2px;
+}
+
+.galleryImg4 {
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/3280_brighton_foam_ju1236a.jpg');
+    height: 100px;
+    width: 100px;
+    background-size: 115%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    border:2px solid #AABC56;
+    transition: .25s;
+}
+
+.galleryImg1:hover {
+    border:4px solid #AABC56;
+}
+
+.galleryImg2:hover {
+    border:4px solid #AABC56;    
+}
+
+.galleryImg3:hover {
+    border:4px solid #AABC56;    
+}
+
+.galleryImg4:hover {
+    border:4px solid #AABC56;
+}
+
+.galleryMar {
+    margin-top: 40px;
+}
+
+.textTest {
+    font-size: 1.4em; 
+    position: absolute;
+    bottom: 25.4px;
+    background-color: #AABC56;
+    color: #fff;
+    width: -moz-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+.customerMar {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.productCard {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #AABC56;
+    height: 250px;
+    width: 100%;
+    border-radius: 2px 2px 2px 2px;
+    background-size: 150%;
+    background-position: center center;
+    transition: .25s;
+}
+
+.productCard:hover {
+    transition: .25s;
+
+
+}
+
+/*Products*/
+
+#sofa {
+    background-image: url('https://jfihires.s3.amazonaws.com/3188_sullivan_nutmeg_ju12301.jpg');
+}
+
+#sofa:hover {
+    transition: .5s;
+    transform: scale(1.03);
+}
+
+#rsofa {
+    background-image: url('https://jfihires.s3.amazonaws.com/105_westin_ash_cu1624.jpg');
+}
+#rsofa:hover {
+    transition: .5s;
+    transform: scale(1.03);
+}
+
+#sectional {
+    background-image: url('https://jfihires.s3.amazonaws.com/4427_topgun_black_room.jpg');
+}
+
+#sectional:hover {
+    transition: .5s;
+    transform: scale(1.03);
+}
+
+#table {
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/801-TableGroup.jpg');
+}
+
+#table:hover {
+    transition: .5s;
+    transform: scale(1.03);
+}
+
+#rug {
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/4832_invincible_train.jpg');
+}
+
+#rug:hover {
+    transition: .5s;
+    transform: scale(1.03);
+}
+
+#liftChair {
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/131_appalachian_infinity_cu1010.jpg');
+}
+
+#liftChair:hover {
+    transition: .5s;
+    transform: scale(1.03);
+}
+
+#sleeper {
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/122_riley_charcoal_room.jpg');
+}
+
+#sleeper:hover {
+    transition: .5s;
+    transform: scale(1.03);
+}
+
+#chair {
+    background-image: url('https://jfihires.s3.amazonaws.com/3188_sullivan_nutmeg_ju12301.jpg');
+}
+
+#chair:hover {
+    transition: .5s;
+    transform: scale(1.03);
+}
+
+#ottoman {
+    background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/3280_brighton_graphite_ju1242.jpg');
+}
+
+#ottoman:hover {
+    transition: .5s;
+    transform: scale(1.03);
+}
+
+#recliner {
+    background-image: url('https://jfihires.s3.amazonaws.com/3188_sullivan_nutmeg_ju12301.jpg')
+}
+
+#recliner:hover {
+    transition: .5s;
+    transform: scale(1.03);
+}
+
+.loginButton > a {
+    font-size: .9em;
+    margin-top: 15px;
+    background-color: #AABC56 !important;
+    color: #fff !important;
+    padding: 6px 20px !important;
+    border-radius: 100px;
+}
+
+.customerMar {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
