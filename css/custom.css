@@ -1,11 +1,11 @@
 /**Navigation**/
 ::selection {
   background: #AABC56;
-  color: white; /* WebKit/Blink Browsers */
+  color: #fff; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
   background: #AABC56;
-  color: white; /* Gecko Browsers */
+  color: #fff; /* Gecko Browsers */
 }
 
 body {
@@ -21,8 +21,6 @@ body {
 .navbar-brand {
     padding: 0px;
 }
-
-
 
 .navbar-nav>li>a {
     padding-top: 20px;
@@ -105,7 +103,7 @@ video {
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: white;
+    background-color: #fff;
     color: #AABC56;
 }
 
@@ -339,7 +337,7 @@ li {
 }
 
 .cntctBg {
-    background-color: white;
+    background-color: #fff;
     padding: 10px;
     border: 2px solid #f8f8f8;
     border-radius: 10px;
@@ -357,8 +355,6 @@ li {
     border-radius: 50px;
     padding: 12px;
     width: 200px;
-    margin-bottom: 90px;
-    margin-top: 60px;
 }
 
 .btnCntct:hover {
@@ -368,8 +364,6 @@ li {
     border: 2px solid #fff;
     transition: .3s;
     border-radius: 50px;
-    margin-top: 55px;
-    margin-bottom: 95px;
 }
 
 .footMar {
@@ -510,13 +504,11 @@ body, .smooth-container { scroll-behavior: smooth }
 }
 
 .productDrpshdw {
-    box-shadow: 0px 0px 10px #e7e7e7;
     border-radius: 5px 5px 5px 5px;
     transition: .25s;
 }
 
 .productDrpshdw:hover {
-    box-shadow: 0px 0px 10px #cacaca;
     border-radius: 5px 5px 5px 5px;
 }
 
@@ -567,7 +559,6 @@ a p {
 
 .itemBottMar {
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .imgHeight {
@@ -630,7 +621,7 @@ td {
 }
 
 th {
-    padding-right: 42px;
+    padding-right: 45px;
     padding-bottom: 15px;
 }
 
@@ -944,6 +935,7 @@ h2 {
     background-size: 150%;
     background-position: center center;
     transition: .25s;
+    cursor: pointer;
 }
 
 .productCard:hover {
@@ -958,90 +950,90 @@ h2 {
     background-image: url('https://jfihires.s3.amazonaws.com/3188_sullivan_nutmeg_ju12301.jpg');
 }
 
-#sofa:hover {
+/*#sofa:hover {
     transition: .5s;
     transform: scale(1.03);
-}
+}*/
 
 #rsofa {
     background-image: url('https://jfihires.s3.amazonaws.com/105_westin_ash_cu1624.jpg');
 }
-#rsofa:hover {
+/*#rsofa:hover {
     transition: .5s;
     transform: scale(1.03);
-}
+}*/
 
 #sectional {
     background-image: url('https://jfihires.s3.amazonaws.com/4427_topgun_black_room.jpg');
 }
 
-#sectional:hover {
+/*#sectional:hover {
     transition: .5s;
     transform: scale(1.03);
-}
+}*/
 
 #table {
     background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/801-TableGroup.jpg');
 }
 
-#table:hover {
+/*#table:hover {
     transition: .5s;
     transform: scale(1.03);
-}
+}*/
 
 #rug {
     background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/4832_invincible_train.jpg');
 }
 
-#rug:hover {
+/*#rug:hover {
     transition: .5s;
     transform: scale(1.03);
-}
+}*/
 
 #liftChair {
     background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/131_appalachian_infinity_cu1010.jpg');
 }
 
-#liftChair:hover {
+/*#liftChair:hover {
     transition: .5s;
     transform: scale(1.03);
-}
+}*/
 
 #sleeper {
     background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/122_riley_charcoal_room.jpg');
 }
 
-#sleeper:hover {
+/*#sleeper:hover {
     transition: .5s;
     transform: scale(1.03);
-}
+}*/
 
 #chair {
     background-image: url('https://jfihires.s3.amazonaws.com/3188_sullivan_nutmeg_ju12301.jpg');
 }
 
-#chair:hover {
+/*#chair:hover {
     transition: .5s;
     transform: scale(1.03);
-}
+}*/
 
 #ottoman {
     background-image: url('http://sales.jacksonfurnind.com/imagelib/mediums/3280_brighton_graphite_ju1242.jpg');
 }
 
-#ottoman:hover {
+/*#ottoman:hover {
     transition: .5s;
     transform: scale(1.03);
-}
+}*/
 
 #recliner {
     background-image: url('https://jfihires.s3.amazonaws.com/3188_sullivan_nutmeg_ju12301.jpg')
 }
 
-#recliner:hover {
+/*#recliner:hover {
     transition: .5s;
     transform: scale(1.03);
-}
+}*/
 
 .loginButton > a {
     font-size: .9em;
@@ -1058,24 +1050,187 @@ h2 {
 }
 
 
+.mySlides {
+    display:none
+}
+
+.gallerySmall {
+    width: 100%;
+    height: 100px;
+    transition: .25s;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-top: 30px;
+    opacity: .5;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.gallerySmall:hover {
+    opacity: 1;
+}
+
+.galleryLarge {
+    margin: auto;
+    border-radius: 2px;
+    height: 400px;
+    width: 85%;
+    background-position: cetner center;
+    background-size: 100% 100%;
+    transition: .25s;
+}
+
+.galleryRow {
+    margin:auto;
+    width: calc(85% + 30px);
+    margin-bottom: 30px;
+}
+
+.itemInfo2 {
+    background-color: #fff;
+}
+
+.topGap {
+    margin-top:90px;
+    margin-bottom: -35px;
+}
+
+.swatchLarge {
+    margin: auto;
+    border-radius: 2px;
+    height: 200px;
+    width: 85%;
+    background-position: cetner center;
+    background-size: 100% 100%;
+    transition: .25s;
+}
+
+.swatchSmall {
+    width: 100%;
+    height: 75px;
+    transition: .25s;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-top: 30px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.swatchSmall:hover {
+    opacity: 1;
+}
+
+.customerMar {
+    padding-bottom: 21px;
+}
+
+.customerImg {
+    margin-top: 30px;
+}
+
+.imgClick {
+    cursor: pointer;
+}
+
+.productText {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    z-index: 99;
+    color: #aabc56;
+    padding: 15px;
+    background-color: rgba(255,255,255,.9);
+    width: calc(100% - 15px);
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.productTextCustomer {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    z-index: 99;
+    color: #aabc56;
+    padding: 15px;
+    background-color: rgba(255,255,255,.9);
+    width: calc(100% - 30px);
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.ignore {
+    color: #fff;
+}
+
+.map {
+        pointer-events: none;
+}
+
+.productMar {
+    margin-bottom: 15px;
+}
+
+#warranty {
+        background-image: url("../images/warranty.jpg");
+}
+
+#dealer {
+        background-image: url("../images/locator.jpg");
+}
+
+#cleaning {
+        background-image: url("../images/cleaning.jpg");
+}
+
+#faq {
+        background-image: url("../images/faqs.jpg");
+}
+
+.customerImg {
+    height: 245px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.cleanText {
+    margin-top:90px; 
+    margin-bottom:30px; 
+    color: #AABC56; 
+    background-color:#fff; 
+    border: 1px solid #e7e7e7; 
+    padding: 20px; 
+    border-radius:5px;"
+}
+
+.sizeText {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right:20px;
+}
+
+
+.item{
+    background-color:#ccc;
+    display:block;
+}
+
+.carousel-caption{
+    position:static;
+}
 
 
 
+    .carousel-control.left, .carousel-control.right {
+        background-image: none
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .carousel-caption {
+        color: #333;
+        text-shadow: 0px 0px 0px rgba(0,0,0,0);
+        background-color:#f8f8f8;
+        border-top:1px solid #e7e7e7;
+        border-bottom:1px solid #e7e7e7;
+    }
 
 
 
